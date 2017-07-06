@@ -1,0 +1,448 @@
+* {
+ word-wrap:break-word;
+}
+body {
+/* background:#F5FAEB;*/
+background:#333333;
+}
+body,input,button,select,textarea {
+ font:15px/1.8 微软雅黑;
+ color:#000000;
+}
+textarea {
+ resize:none;
+}
+
+table {
+ empty-cells:show;
+ border-collapse:collapse;
+  border-spacing:0;
+}
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+ margin:0;
+ padding:0;
+}
+body,button,input,select,textarea {
+ font:14px/1.5 Tahoma,Helvetica,"Microsoft YaHei","微软雅黑","Microsoft JhengHei","STHeiti,MingLiu";
+}
+
+
+a {
+ color:#333;
+ text-decoration:none;
+  -webkit-tap-highlight-color:transparent;
+ outline:0;
+}
+a:hover {
+ text-decoration:underline;
+}
+a img {
+ border:none;
+}
+
+
+
+
+img {
+ border:0;
+ -webkit-tap-highlight-color:transparent;
+ outline:0;
+}
+
+
+
+html {
+ overflow-y:scroll;
+}
+input[type=button] {
+ -webkit-appearance:button;
+}
+.clearfix:after {
+ visibility:hidden;
+ display:block;
+ font-size:0;
+ content:" ";
+ clear:both;
+ height:0;
+}
+.clearfix {
+ display:inline-table;
+}
+* html .clearfix {
+ height:1%;
+}
+.clearfix {
+ display:block;
+}
+
+.fl1 {
+ float:left;
+}
+.fl1 input{
+	border:none;
+	padding-top:8px;
+	padding-right:20px;
+	background-color:#656565;
+	color:#cccccc;
+}
+.fl1 input:hover{
+	color:white;
+}
+.fr1 {
+ float:right;
+}
+.user a{
+	color:white;
+}
+.wrap1200 {
+ width:1200px;
+ margin:0px auto;
+}
+.top {
+ width:100%;
+ height:40px;
+ background:#656565;
+ color:#fff;
+ overflow:hidden;
+ z-index: 29;
+}
+.top .toplinkl a:hover {
+	text-decoration: none;
+	color: white;
+}
+/*.top a {
+ color:#cccccc;
+}*/
+.toplinkr a{
+	color:#cccccc;
+}
+.top .toplinkl .user {
+ display:inline-block;
+ width:auto;
+ height:40px;
+ line-height:40px;
+ border:1px solid #737373;
+ border-top:none;
+ border-bottom:none;
+ padding:0px 1.3em;
+ /*background:url(http://www.5imx.com/template/5imx2015/styletop-icon1.png) no-repeat scroll 1em center;*/
+ text-indent:25px;
+}
+.top .toplinkl .user b {
+ display:inline-block;
+ width:12px;
+ height:40px;
+ line-height:40px;
+ /*background:url(http://www.5imx.com/template/5imx2015/styletop-icon11.png) no-repeat scroll right center;*/
+}
+.top .toplinkr {
+ border-left:1px solid #737373;
+}
+.top .toplinkr span {
+ border-right:1px solid #737373;
+ display:inline-block;
+ padding:0px 1.3em;
+ height:40px;
+ line-height:40px;
+ width:auto;
+ text-indent:25px;
+}
+
+.top .toplinkuser {
+ margin-left:0%;
+}
+.toplinkr span a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*
+.navigation {
+ width:100%;
+ height:50px;
+ background:#606060;
+}
+.navigation ul li {
+ float:left;
+ font-size:14px;
+ height:50px;
+ padding-right:1px;
+}
+.navigation ul li a {
+ display:inline-block;
+ padding:0px 22px;
+ height:50px;
+ line-height:50px;
+ color:#fff;
+}
+.navigation ul li a:hover {
+ background:#0088cc;
+}
+.navigation ul li.curr a {
+ background:#0088cc;
+}
+
+*/
+
+
+.search{
+	
+	position: absolute;
+	top:55px;
+	left:45%;
+	
+}
+.search {
+    padding: 0px;
+    border: none;
+    width: 232px;
+    background:#e0e0e0;
+}
+ 
+.search:hover {
+    background: #a8a8a8;
+}
+.search input {
+    border: none;
+    float: left;
+}
+.search input.box {
+    height: 28px;
+    width: 200;
+    margin-right: 0px;
+    padding-right: 0px;
+    
+    background: #e0e0e0;
+    margin: 1px;
+}
+.search input.box:focus {
+    background: #e8e8e8 ;
+    outline: none;
+}
+.btn{
+	margin-top:4px;
+	border:none;
+	background:none;
+}
+/*
+.search button.btn {
+    border: none;
+    width: 28px;
+    height: 28px;
+    margin: 0px auto;
+    margin: 1px;
+    background: url(images/Search.png) no-repeat top right;
+}
+.search button.btn:hover {
+    background: url(images/car.png) no-repeat bottom right;
+}*/
+
+#all{
+	width: 30%;
+	/*height:100%;*/
+	height: 2500px;
+	position: absolute;
+	text-align: center;
+	
+	background-color: white;
+
+}
+.frame{
+	width: 1152px;
+	height: 540px;
+	position: absolute;
+	
+	z-index: 19;
+	overflow:hidden;
+}
+
+/*
+#dis{ 
+	position:absolute;
+	left:-150px;
+	bottom:5px;
+	opacity:.5
+        	}
+        
+        #dis li{
+        		display:inline-block;
+        		width:200px;
+        		height:15px;
+        		margin-left: 350px;
+                margin-right: 108px;
+        		float:left;
+        		text-align:center;
+        		color:#fff;
+        		border-radius:10px;
+        		background:#000
+        	}
+          */
+#photos img{
+    float:left;
+    width:1152px;
+    height:540px
+}
+#photos {  
+    position: absolute;
+    
+  	width: calc(1152px * 4);
+}/*---淇敼鍥剧墖鏁伴噺鐨勮瘽闇�淇敼涓嬮潰鐨勫姩鐢诲弬鏁*/  
+.play{
+	animation: ma 18s  ease-in-out infinite normal;
+}
+@keyframes ma {
+    0%,25% {        margin-left: 0px;       }
+	26%,50% {       margin-left: -1152px;    }
+	51%,75% {       margin-left: -2304px;    }
+	76%,100% {       margin-left: -3456px;    }
+             
+	 
+}
+
+
+
+.list{
+	width: 300px;
+	position: absolute;
+	right: 20px;
+
+	height:380px;
+	z-index: 29;
+
+}
+.list a{
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+	vertical-align: center;
+	position: absolute;
+	left: 30px;
+	padding-top: 10px;
+
+}
+.list li a:hover{
+	text-decoration:none;
+
+}
+.list ul{
+	list-style: none;
+}
+.list li{
+	height: 50px;
+	background-color: #656565;
+	vertical-align: center;
+
+}
+li:hover{
+	background-color: red;
+	height: 50px;
+	
+	vertical-align: center;
+}
+
+ 
+
+.part{
+	position:relative;
+	
+	float:left;
+	margin-left:10px;
+	padding-top:12px;
+	padding-left:30px;
+	
+}
+.part p{
+	
+	font-size:25px;
+}
+
+
+
+.topic{
+	position: absolute;
+	top: 958px;
+	/*left: 423px;*/
+	width:1150px; 
+	z-index: 20;
+	
+	/*border:2px solid #656565;
+	
+	border-collapse: collapse;
+	column-span: 2;*/
+
+
+}
+
+/*
+.number{
+	
+	position: absolute;
+	top:30px;
+	left: 20px;
+	z-index: 19;
+	text-align:left;
+
+	
+}
+hr{
+	width: 1070px;
+	color: #656565;
+}*/
+
+
+.topic a{
+	font-size:20px;
+	line-height:60px;	
+	color:black;
+	padding-left:70px;
+	/*padding-right:50px;*/
+	
+	
+	
+	
+}
+
+.topic a:hover{
+	text-decoration: none;
+	color: white;
+	overflow: visible;
+}
+.bg1 td{
+	
+	background-color:#f3f3f4;
+	
+}
+.bg1 td:hover{
+	
+	background-color:#333;
+	
+	
+}
+.bg2 td:hover{
+	
+	background-color:#333;
+	
+}
+.bg2 td{
+	width:1145px;
+	background-color:#dbdadc;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	
+	overflow:hidden;
+}
+
+table{ 
+	table-layout:fixed; 
+} 
+.foot{
+	text-align: center;
+	margin-bottom:-10px;
+}
+
+.foot a{
+	color:black;
+	font-size:20px;
+}
